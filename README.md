@@ -14,7 +14,7 @@ Primero, vamos a crear un directorio para organizar nuestro proyecto y dentro de
 > touch docker-compose.yml
 ____________________________________________
 Paso 2: Editar el archivo docker-compose.yml
-Ahora, editaremos el archivo docker-compose.yml para configurar nuestro servicio de MongoDB. Asegúrate de reemplazar "user" y "pass" con el usuario y la contraseña deseados,al terminar de copiar aprtete un enter y ctr + z para grabar y continuar.
+Ahora, editaremos el archivo docker-compose.yml para configurar nuestro servicio de MongoDB. Asegúrate de reemplazar "user" y "pass" con el usuario y la contraseña deseados,al terminar de copiar aprtete un enter y ctr + d para grabar y continuar.
 
         version: '2.2'
         services:
