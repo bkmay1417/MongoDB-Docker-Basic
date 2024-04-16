@@ -117,4 +117,8 @@ Crear colección:
 ________________
 Mostrar el contenido de una colección:
 
-> showCollections
+>use database
+>db.dropDatabase()
+>use tabla;
+>showCollections;
+> db.tabla.find();
