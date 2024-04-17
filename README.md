@@ -7,15 +7,21 @@ ____________________________________________
 Paso 1: Crear el archivo docker-compose.yml
 Primero, vamos a crear un directorio para organizar nuestro proyecto y dentro de él crearemos el archivo docker-compose.yml.
 
+```
+mkdir Mongo
+```
+```
+cd Mongo
+```
 
-> mkdir Mongo
-> cd Mongo
 #touch = crear el archivo .yml
-> touch docker-compose.yml
+```
+touch docker-compose.yml
+```
 ____________________________________________
 Paso 2: Editar el archivo docker-compose.yml
 Ahora, editaremos el archivo docker-compose.yml para configurar nuestro servicio de MongoDB. Asegúrate de reemplazar "user" y "pass" con el usuario y la contraseña deseados,al terminar de copiar aprtete un enter y ctr + d para grabar y continuar.
-
+```
         version: '2.2'
         services:
           mongo:
@@ -30,20 +36,21 @@ Ahora, editaremos el archivo docker-compose.yml para configurar nuestro servicio
               - ./monguitodata/log:/var/log/mongodb/
             ports:
               - "27017:27017"
-      
+ ```    
 _____________________________________________________________
 Paso 3: Crear un script para ejecutar comandos en la terminal
 Vamos a crear un script llamado mongo.sh que nos ayudará a automatizar algunas tareas.
-
-
-> touch mongo.sh
+```
+touch mongo.sh
+```
 __________________________________
 Paso 4: Editar el archivo mongo.sh
 A continuación, editaremos el archivo mongo.sh y agregaremos los comandos necesarios.
 
-
-#Crear carpeta para volumen de MongoDB
-
+#Crear carpeta para volumen de mongo:
+```
+mkdir monguitodata && cd monguitodata; cd monguitodata || mkdir log
+```
 > mkdir monguitodata
 > cd monguitodata
 > mkdir log
@@ -51,21 +58,26 @@ A continuación, editaremos el archivo mongo.sh y agregaremos los comandos neces
 
 #Iniciar el contenedor
 
-> sudo docker-compose up -d
-
+```
+sudo docker-compose up -d
+```
 #Mostrar mensaje
-
-> echo "Monguito se está iniciando..."
-
+```
+echo "Monguito se está iniciando..."
+```
 #Entrar en el contenedor
-
-> sudo docker exec -it monguito bash
+```
+sudo docker exec -it monguito bash
+```
 _________________________________________________________
 Paso 5: Asignar permisos de ejecución y ejecutar mongo.sh
 Finalmente, asignaremos permisos de ejecución al script y lo ejecutaremos.
-
-> chmod u+x mongo.sh
-> ./mongo.sh
+```
+chmod u+x mongo.sh
+```
+```
+./mongo.sh
+```
 _______________________________
 Paso 6: ¡Usar MongoDB a placer!
 ¡Listo! Ahora puedes utilizar MongoDB según tus necesidades.
@@ -98,27 +110,40 @@ protecto basico de  mongodb con docker
 			COMANDOS MONGO DB
 _______________________
 Mostrar Bases de datos:
-
-> show dbs
+```
+show dbs
+```
 ______________________________________
 Crear o ubicarse en uns base de datos:
-
-> use databasename
+```
+use databasename
+```
 _______________________________________
 Saber que base de datos estamos usando:
-
-> db
+```
+db
+```
 ________________
 Crear colección:
- 
-> db.createCollection('nameCollection')
+``` 
+db.createCollection('nameCollection')
+```
 {"Clave": "Valor"}
 
 ________________
 Mostrar el contenido de una colección:
-
->use database
->db.dropDatabase()
->use tabla;
->showCollections;
-> db.tabla.find();
+```
+use database
+```
+```
+db.dropDatabase()
+```
+```
+use tabla;
+```
+```
+showCollections;
+```
+```
+db.tabla.find();
+```
