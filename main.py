@@ -35,10 +35,10 @@ for nombre_empresa in tickers:
     lista_de_empresas.append(empresa_datos)
 #print(lista_de_empresas)
 # Seleccionar una base de datos (o "crear" una nueva al insertar datos)
-#db = client['finance']  # "Crear" una nueva base de datos llamada 
+db = client['finance']  # "Crear" una nueva base de datos llamada 
 # Insertar un documento en una colección
-#collection = db['datos']  # "Crear" una colección llamada "mi_coleccion" dentro de la nueva base de datos
-#collection.insert_many(lista_de_empresas)
+collection = db['datos']  # "Crear" una colección llamada "mi_coleccion" dentro de la nueva base de datos
+collection.insert_many(lista_de_empresas)
 # Crear una instancia de FastAPI
 app = FastAPI()
 app.title = "My First API"
