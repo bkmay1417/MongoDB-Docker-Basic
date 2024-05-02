@@ -231,3 +231,15 @@ showCollections;
 ```
 db.tabla.find();
 ```
+
+# Referencias
+
+* https://github.com/soyHenry/DS-M4-Herramientas_Big_Data
+
+
+## Desarrolladores
+
+| [<img src="https://avatars.githubusercontent.com/u/163685041?v=4" width=115><br><sub>Michael Martinez</sub>](https://github.com/bkmay1417) |
+| :---: |
+
+Copyright (c) 2024 [Michael Martinez] yam8991@gmail.com
