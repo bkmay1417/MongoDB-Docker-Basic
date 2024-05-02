@@ -1,4 +1,6 @@
-Configuración de un Contenedor de MongoDB con Docker
+<h1> Configuración de un Contenedor de MongoDB con Docker</h1>
+
+<p align="center"><img src="./img/mongodb.png" alt="mongodb"  /></p>
 
 <h2>Pre-requisitos 📋</h2>
 
