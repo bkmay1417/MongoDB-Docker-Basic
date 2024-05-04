@@ -2,17 +2,10 @@
 
 <p align="center"><img src="./img/mongodb.png" alt="mongodb"  /></p>
 
-## Table of Contents
-
-
-
-<h2>Pre-requisitos 📋</h2>
+## Pre-requisitos 📋
 
 En este proyecto se llevó a cabo en un entorno de desarrollo Windows. Se utilizó una máquina virtual alojada en VirtualBox con Ubuntu Server, debido a que Docker no es compatible directamente con Windows. En la máquina virtual se instaló Docker para la gestión de contenedores. Para establecer la conexión entre la máquina virtual y el sistema operativo original de Windows, se empleó PuTTY. Además, para simplificar la transferencia y gestión de archivos en Ubuntu, también se puede optar por utilizar WinSCP.Los links se proveen a continuacion junto con una guia 
 - [Pre-requisitos](./Pre-requisitos.md)
-
-
-
 
 Instalación de MongoDB:
 Para instalar MongoDB, sigue los siguientes pasos en la línea de comando:
