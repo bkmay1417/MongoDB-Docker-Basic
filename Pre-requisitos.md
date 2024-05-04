@@ -78,4 +78,4 @@ Paso 0.17 Programa que nos permite editar y enviar archivos de una forma mas com
 
 <p><img src="./img/winscp.png" alt="winscp" width="75%"  /></p>
 
-<p align="right">(<a href="#readme-top">Volver al principio</a>)</p>
+[Back to Main README](../README.md)
