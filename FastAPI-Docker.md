@@ -1,4 +1,7 @@
 ## Proyecto de FastApi   
+
+<p align="center"><img src="./img/fastapi.png" alt="fastapi" height="100%" width="100%"/></p>
+
 - Paso1- Crear Carpeta del Proyecto. 
 my_first_API
 ______________________________
