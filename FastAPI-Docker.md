@@ -97,8 +97,12 @@ ________________________________________________________
 - Paso 1- Acceder a la documentación automátca con Swagger.
 Con la API levantada, (Ver Parte 1, paso 10)
 
-Navegador> ipmaquina:5000/docs
-"Notar que se accede a una interfaz web que permite ver y acceder a nuestro endpoint"
+Navegador>
+```
+ipmaquina:5000/docs
+```
+>[!NOTA]
+>"Notar que se accede a una interfaz web que permite ver y acceder a nuestro endpoint"
 ________________________________________________________________
 - Paso 2- Modificar el título de la documentación.
 Dirigirse al Script que crea la API > main.py
