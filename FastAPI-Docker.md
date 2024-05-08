@@ -5,7 +5,8 @@
 - **Paso 1:**  Crear Carpeta del Proyecto. 
 my_first_API
 ______________________________
-- **Paso 2:**  Crea un entorno virtual. 
+- **Paso 2:**  Crea un entorno virtual.
+  
 >[!NOTE]
 >En la terminal de Visual estudio Code:
 
@@ -101,7 +102,8 @@ Navegador>
 ```
 ipmaquina:5000/docs
 ```
->[!NOTA]
+
+>[!NOTe]
 >"Notar que se accede a una interfaz web que permite ver y acceder a nuestro endpoint"
 ________________________________________________________________
 - **Paso 2:** Modificar el título de la documentación.
