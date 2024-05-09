@@ -10,7 +10,7 @@ En este proyecto se llevó a cabo en un entorno de desarrollo Windows. Se utiliz
 Instalación de MongoDB:
 Para instalar MongoDB, sigue los siguientes pasos en la línea de comando:
 ____________________________________________
-Paso 1: Crear el archivo docker-compose.yml
+- **Paso 1:**  Crear el archivo docker-compose.yml
 Primero, vamos a crear un directorio para organizar nuestro proyecto y dentro de él crearemos el archivo docker-compose.yml.
 
 ```
@@ -25,7 +25,7 @@ cd Mongo
 touch docker-compose.yml
 ```
 ____________________________________________
-Paso 2: Editar el archivo docker-compose.yml
+- **Paso 2:** Editar el archivo docker-compose.yml
 Ahora, editaremos el archivo docker-compose.yml para configurar nuestro servicio de MongoDB. Asegúrate de reemplazar "user" y "pass" con el usuario y la contraseña deseados,al terminar de copiar aprtete un enter y ctr + d para grabar y continuar.
 ```
         version: '2.2'
@@ -44,13 +44,13 @@ Ahora, editaremos el archivo docker-compose.yml para configurar nuestro servicio
               - "27017:27017"
  ```    
 _____________________________________________________________
-Paso 3: Crear un script para ejecutar comandos en la terminal
+- **Paso 3:** Crear un script para ejecutar comandos en la terminal
 Vamos a crear un script llamado mongo.sh que nos ayudará a automatizar algunas tareas.
 ```
 touch mongo.sh
 ```
 __________________________________
-Paso 4: Editar el archivo mongo.sh
+- **Paso 4:** Editar el archivo mongo.sh
 A continuación, editaremos el archivo mongo.sh y agregaremos los comandos necesarios.
 
 #Crear carpeta para volumen de mongo:
@@ -76,7 +76,7 @@ echo "Monguito se está iniciando..."
 sudo docker exec -it monguito bash
 ```
 _________________________________________________________
-Paso 5: Asignar permisos de ejecución y ejecutar mongo.sh
+- **Paso 5:** Asignar permisos de ejecución y ejecutar mongo.sh
 Finalmente, asignaremos permisos de ejecución al script y lo ejecutaremos.
 ```
 chmod u+x mongo.sh
@@ -85,7 +85,7 @@ chmod u+x mongo.sh
 ./mongo.sh
 ```
 _______________________________
-Paso 6: ¡Usar MongoDB a placer!
+- **Paso 6:** ¡Usar MongoDB a placer!
 ¡Listo! Ahora puedes utilizar MongoDB según tus necesidades.
 
 
