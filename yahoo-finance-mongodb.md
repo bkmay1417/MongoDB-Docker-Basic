@@ -12,18 +12,18 @@ Para instalar las dependencias del proyecto, asegúrate de tener `yfinance`, `pa
 pip install yfinance pandas pymongo
 ```
 
-##Uso
+## Uso
 Para ejecutar el código, simplemente ejecuta el script main.py. Asegúrate de tener una instancia de MongoDB en ejecución y especifica la dirección IP y el puerto correctos en la variable client.
 
-bash
-Copy code
+```
 python main.py
+```
 Contribución
 Si deseas contribuir al proyecto, puedes abrir issues para informar sobre problemas o sugerir mejoras. También puedes enviar pull requests con cambios propuestos.
 
 Ejemplo de Resultado
 python
-Copy code
+```
 [
     {
         "Nombre de la empresa": "Tesla, Inc.",
@@ -51,10 +51,11 @@ Copy code
     },
     # Más datos de otras empresas...
 ]
-Licencia
-Este proyecto está bajo la Licencia MIT.
+```
+
 
 Enlaces
-Documentación de yfinance
-Documentación de pymongo
-Esta es solo una estructura sugerida, puedes personalizarla según tus necesidades y la complejidad del proyecto. Recuerda que el objetivo principal es hacer que la información sea clara y accesible para otros desarrolladores.
+- [Documentación de yfinance](https://pypi.org/project/yfinance/) 
+- [Documentación de pymongo](https://pymongo.readthedocs.io/en/stable/) 
+
+
