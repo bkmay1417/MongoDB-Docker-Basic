@@ -1,4 +1,6 @@
-# Análisis Financiero con datos de Yahoo Finance y MongoDB
+# Análisis Financiero con datos de Yahoo Finance 
+
+<p align="center"><img src="./img/yahoopy.png" alt="yahoopy"  height="100%" width="100%" /></p>
 
 ## Descripción
 
