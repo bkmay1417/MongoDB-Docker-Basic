@@ -1,5 +1,6 @@
-<h1> Configuración de un Contenedor de MongoDB con Docker</h1>
+<h1> Configuración de un Contenedor con Docker</h1>
 
+<p align="center"><img src="./img/docker.png" alt="docker"  height="100%" width="100%" /></p>
 
 
 ## Guia paso a paso 📋
