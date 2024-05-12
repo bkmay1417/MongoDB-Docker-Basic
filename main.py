@@ -1,15 +1,20 @@
 import yfinance as yf
+import pandas as pd
+from datetime import datetime
 from pymongo import MongoClient
+#Agregamos librerias de fastAPI
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import HTMLResponse
 from fastapi.param_functions import Path
-from datetime import datetime
+
 # Establecer la conexión a MongoDB
 client = MongoClient('172.21.0.2', 27017)  # Por defecto, MongoDB corre en el puerto 27017 en localhost y la ip es la de la maquina virtual
+
 lista_de_empresas = []
 fecha = '2023-12-31'
 tickers = ['TSLA', 'NFLX', 'META', 'AMZN', 'GOOG']
 i = 1
+
 # Recopilar datos de las empresas
 for nombre_empresa in tickers:
     empresa = yf.Ticker(nombre_empresa)
@@ -42,7 +47,7 @@ collection.insert_many(lista_de_empresas)
 # Crear una instancia de FastAPI
 app = FastAPI()
 app.title = "My First API"
-app.version = "Basic 0.0.1"
+app.version = "Basic 1.0.0"
 @app.get('/', tags=['home'])
 def message():
     """Devuelve el mensaje de 'Hello Word' con enlace a lista de empresas"""
