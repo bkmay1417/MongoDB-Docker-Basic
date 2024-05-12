@@ -132,8 +132,16 @@ Se agrega después de declarar la función antes del código agregar la descripc
     """Devuelve el mensaje de 'Hello Word'"""
     return "Hello World!"
 ```
+								PARTE 3
+							---------------------------
+#Agregar Fast API a nuestro protecto.
+<p align="center"><img src="./img/drawio.png" alt="drawio" height="100%" width="100%"/></p>
+Buscamos hacer algo asi 
+
+
+
  
-							PARTE 3 ()
+								PARTE 4
 							---------------------------
 
 ## Llevar Fast API a Docker y luego hacer deployment.
