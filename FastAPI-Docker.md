@@ -179,6 +179,9 @@ COPY ./app /code/app
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "80"]
 ``````
 - **Paso 9:** Luego asegurate de tener corriendo docker para construir la imagen de tu aplicación.
+>[!NOTE]
+>Este paso se ejecuta en ubuntu server
+
 ``````
 docker build -t myapp .
 ``````
