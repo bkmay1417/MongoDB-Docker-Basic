@@ -140,7 +140,7 @@ Se agrega después de declarar la función antes del código agregar la descripc
 ### Buscamos hacer algo asi 
 ## Descripción
 
-Este proyecto mejpraremos el proyecto anterior agregando un forma de visualizar los datos utiliza la biblioteca `fastapi` para poder generan una pagina con los datos financieros de varias empresas y los almacena en una base de datos MongoDB.
+Este proyecto mejoraremos el proyecto anterior agregando un forma de visualizar los datos utiliza la biblioteca `fastapi` para poder generan una pagina con los datos financieros de varias empresas y los almacena en una base de datos MongoDB.
 
 ## Instalación
 
