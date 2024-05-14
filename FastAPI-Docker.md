@@ -135,11 +135,34 @@ Se agrega después de declarar la función antes del código agregar la descripc
 								PARTE 3
 							---------------------------
 ## Agregar Fast API a nuestro proyecto.
-<p align="center"><img src="./img/drawio.png" alt="drawio" height="75%" width="75%"/></p>
+<p align="center"><img src="./img/drawio.png" alt="drawio" height="60%" width="60%"/></p>
 
 ### Buscamos hacer algo asi 
+## Descripción
 
-## Documentacion de las modificaciones al codigo 
+Este proyecto mejpraremos el proyecto anterior agregando un forma de visualizar los datos utiliza la biblioteca `fastapi` para poder generan una pagina con los datos financieros de varias empresas y los almacena en una base de datos MongoDB.
+
+## Instalación
+
+Para instalar las dependencias del proyecto, asegúrate de tener `yfinance`,`fastapi`,`pandas` y `pymongo` instalados en tu entorno Python. Puedes instalarlos utilizando pip:
+
+```
+pip install yfinance pandas pymongo fastapi uvicorn
+```
+
+## Uso
+Para ejecutar el código, simplemente ejecuta el script main.py. Asegúrate de tener una instancia de MongoDB en ejecución y especifica la dirección IP y el puerto correctos en la variable client.
+
+```
+python main.py
+```
+Contribución
+Si deseas contribuir al proyecto, puedes abrir issues para informar sobre problemas o sugerir mejoras. También puedes enviar pull requests con cambios propuestos.
+
+Enlaces
+- [Documentación de FastAPI](https://fastapi.tiangolo.com/) 
+
+## Documentacion de las modificaciones al codigo previo
 
 ### 1. Importaciones de bibliotecas (ACTUALIZADO CON MAS LIBRERIAS)
 ```
@@ -283,8 +306,6 @@ def get_empresa_by_id(id: int = Path(..., title="ID de la empresa a buscar")):
 ### Resultado final 
 <p align="center"><img src="./img/Screenshot_73.png" alt="sce" height="75%" width="75%"/></p>
 
-
- 
 								PARTE 4
 							---------------------------
 
