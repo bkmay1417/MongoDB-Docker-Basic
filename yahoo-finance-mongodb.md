@@ -15,10 +15,10 @@ pip install yfinance pandas pymongo
 ```
 
 ## Uso
-Para ejecutar el código, simplemente ejecuta el script main.py. Asegúrate de tener una instancia de MongoDB en ejecución y especifica la dirección IP y el puerto correctos en la variable client.
+Para ejecutar el código, simplemente ejecuta el script finace.py. Asegúrate de tener una instancia de MongoDB en ejecución y especifica la dirección IP y el puerto correctos en la variable client.
 
 ```
-python main.py
+python finace.py
 ```
 Contribución
 Si deseas contribuir al proyecto, puedes abrir issues para informar sobre problemas o sugerir mejoras. También puedes enviar pull requests con cambios propuestos.
@@ -126,7 +126,7 @@ collection.insert_many(lista_de_empresas)  # Insertar los datos de las empresas 
 ```
 ### Resultado Mostrado en Mongodb
 
-<p align="center"><img src="./img/Screenshot_68.png" alt="scn68" height="75%" width="75%"/></p>
+<p align="center"><img src="./img/Screenshot_68.png" alt="scn68" height="60%" width="60%"/></p>
 
 ### Descripción general
 Este script Python realiza las siguientes tareas:
