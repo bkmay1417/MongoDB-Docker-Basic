@@ -1,6 +1,6 @@
 <h1> Almacenamiento de datos finacieros </h1>
 
-<p align="center"><img src="./img/docker.png" alt="docker"  height="100%" width="100%" /></p>
+<p align="center"><img src="./img/guardar.png" alt="guardar"  height="100%" width="100%" /></p>
 
 
 ## Guia paso a paso 📋
@@ -8,7 +8,9 @@
 - [Pre-requisitos](./Pre-requisitos.md)
 - [MongoDB](./MongoDB.md)
 - [Yahoo-finance](./yahoo-finance-mongodb.md)
-- [FastAPI](./FastAPI-Docker.md)
+- [FastAPI Basico](./FastAPI.md)
+- [FastAPI](./fastapi-finance.md)
+- [Docker](./docker.md)
 
 
 # Referencias
