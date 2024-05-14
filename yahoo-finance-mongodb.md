@@ -124,6 +124,10 @@ db = client['finance']  # Seleccionar o crear una base de datos llamada 'finance
 collection = db['datos']  # Seleccionar o crear una colección llamada 'datos' dentro de la base de datos 'finance'
 collection.insert_many(lista_de_empresas)  # Insertar los datos de las empresas en la colección 'datos'
 ```
+### Resultado Mostrado en Mongodb
+
+<p align="center"><img src="./img/Screenshot_68.png" alt="scn68" height="75%" width="75%"/></p>
+
 ### Descripción general
 Este script Python realiza las siguientes tareas:
 
