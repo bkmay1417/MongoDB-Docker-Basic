@@ -1,4 +1,8 @@
 <h1> Almacenamiento de datos finacieros </h1>
+<div style="display: flex; align-items: center;">
+    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green" />
+    <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/bkmay1417/MongoDB-Docker-Basic" />
+</div>
 
 <p align="center"><img src="./img/guardar.png" alt="guardar"  height="100%" width="100%" /></p>
 
