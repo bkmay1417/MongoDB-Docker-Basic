@@ -46,7 +46,7 @@ Terminal>
  pip install uvicorn
 ```
 _____________________________________________________________
-- **Paso 6:**  Crar el archivo para crer el código para Ejecutar API.
+- **Paso 6:**  Crear el archivo para crear el código para Ejecutar API.
 
 main.py
 _________________________________________________________
